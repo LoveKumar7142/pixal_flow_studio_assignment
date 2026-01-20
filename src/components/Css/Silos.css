@@ -1,0 +1,58 @@
+.silos {
+  padding: 100px 24px;
+  background-color: #ffffff;
+}
+
+.silos-content {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.silos h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0b3c5d;
+  margin-bottom: 16px;
+}
+
+.intro {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.silos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.silo-card {
+  background: #f7fbff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.silo-card h4 {
+  font-size: 20px;
+  color: #0b3c5d;
+  margin-bottom: 6px;
+}
+
+.silo-card span {
+  font-size: 14px;
+  color: #555;
+}
+.silo-icon {
+  font-size: 32px;
+  color: #1fa2ff;
+  margin-bottom: 12px;
+}
+
+.closing {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0b3c5d;
+}

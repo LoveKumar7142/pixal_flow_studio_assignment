@@ -1,0 +1,30 @@
+/* Root height full screen */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* App layout */
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content expand kare */
+.main-content {
+  flex: 1;
+}
+
+/* Scroll animation base */
+.fade-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+}
+
+/* Jab visible ho */
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

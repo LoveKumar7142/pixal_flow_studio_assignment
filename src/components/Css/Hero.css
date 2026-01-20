@@ -1,0 +1,83 @@
+.hero {
+  background-color: #f7fbff;
+  padding: 120px 24px;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Small top badge */
+.hero-badge {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 6px 14px;
+  background-color: #e6f3ff;
+  color: #1fa2ff;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+/* Headline */
+.hero h1 {
+  font-size: 46px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #0b3c5d;
+  margin-bottom: 28px;
+}
+
+.hero h1 span {
+  color: #1fa2ff; /* Accent highlight */
+}
+
+/* Description */
+.hero p {
+  max-width: 720px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.8;
+}
+
+/* Buttons */
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.primary-btn {
+  background-color: #1fa2ff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #1687d9;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: #0b3c5d;
+  border: 1.5px solid #0b3c5d;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.secondary-btn:hover {
+  background-color: #0b3c5d;
+  color: white;
+}

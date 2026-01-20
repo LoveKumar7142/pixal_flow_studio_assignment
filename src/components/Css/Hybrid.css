@@ -1,0 +1,44 @@
+.hybrid {
+  padding: 90px 24px;
+  background-color: #ffffff;
+}
+
+.hybrid-content {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.hybrid h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0b3c5d;
+  margin-bottom: 24px;
+}
+
+.hybrid h2 span {
+  color: #1fa2ff;
+}
+
+.hybrid p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.flow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-weight: 600;
+  color: #0b3c5d;
+}
+
+.flow span {
+  background: #f2f7fc;
+  padding: 10px 14px;
+  border-radius: 6px;
+}
